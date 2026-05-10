@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="fr-CA">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Réservation pour les sorties en rabaska au parc Aimé-Léonard — bientôt disponible. Dates des sorties et informations pratiques."
+    />
+    <title>Réservation rabaska — Parc Aimé-Léonard — Bientôt disponible</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600&family=Nunito:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">Aller au contenu principal</a>
+
+    <header class="site-header" role="banner">
+      <div class="site-header__inner">
+        <p class="site-header__eyebrow">Parc Aimé-Léonard</p>
+        <h1 class="site-header__title">Viens ramer avec nous&nbsp;!</h1>
+        <p class="site-header__subtitle">
+          Réservation pour les sorties en rabaska — <strong>bientôt disponible</strong>.
+        </p>
+      </div>
+    </header>
+
+    <div
+      class="hero"
+      role="img"
+      aria-label="Illustration&nbsp;: personnes en rabaska sur la rivière, avec vue sur la ville."
+    >
+      <div
+        class="hero__bg"
+        style="background-image: url('assets/rabaska.jpeg')"
+      ></div>
+      <div class="hero__overlay" aria-hidden="true"></div>
+    </div>
+
+    <main id="main-content" class="main" tabindex="-1">
+      <div class="main__layout">
+        <aside class="callouts" aria-label="Informations complémentaires">
+          <p class="callout callout--burst">
+            <span class="callout__label">Gratuit</span>
+            <span class="visually-hidden"> — </span>
+            <span class="callout__detail">activité sans frais</span>
+          </p>
+          <p class="callout callout--burst">
+            <span class="callout__label">Gratuit</span>
+            <span class="visually-hidden"> — </span>
+            <span class="callout__detail">sur inscription ou sur place</span>
+          </p>
+        </aside>
+
+        <div class="cards">
+          <section class="card card--dates" aria-labelledby="dates-heading">
+            <h2 id="dates-heading">Dates des sorties</h2>
+            <ul class="date-list">
+              <li><time datetime="2026-06-28">Dimanche, 28 juin 2026</time></li>
+              <li><time datetime="2026-07-04">Samedi, 4 juillet 2026</time></li>
+              <li><time datetime="2026-07-19">Dimanche, 19 juillet 2026</time></li>
+              <li><time datetime="2026-07-24">Vendredi 24 juillet 2026</time></li>
+              <li><time datetime="2026-08-16">Dimanche, 16 août 2026</time></li>
+              <li><time datetime="2026-08-22">Samedi, 22 août 2026</time></li>
+              <li><time datetime="2026-08-30">Dimanche, 30 août 2026</time></li>
+              <li><time datetime="2026-09-05">Samedi, 5 septembre 2026</time></li>
+            </ul>
+          </section>
+
+          <section class="card card--time" aria-labelledby="hours-heading">
+            <h2 id="hours-heading">Horaire</h2>
+            <p class="time-block">10&nbsp;h à 18&nbsp;h</p>
+            <p class="time-block__context">Pour chaque date de sortie ci-dessus.</p>
+          </section>
+
+          <section class="card card--place" aria-labelledby="place-heading">
+            <h2 id="place-heading">Lieu</h2>
+            <p>Parc Aimé-Léonard</p>
+          </section>
+
+          <section class="card card--cta" aria-labelledby="reserve-heading">
+            <h2 id="reserve-heading" class="visually-hidden">Réservation</h2>
+            <p class="cta-block">
+              <span class="cta-block__title">Inscription</span>
+              La réservation en ligne sera annoncée sur cette page.
+            </p>
+            <p class="card__note">Ou sur place selon disponibilité.</p>
+          </section>
+        </div>
+      </div>
+
+    </main>
+
+    <footer class="site-footer" role="contentinfo">
+      <div class="site-footer__inner">
+        <p class="site-footer__brand">MTL&nbsp;NORD</p>
+        <div class="site-footer__cta">
+          <p class="site-footer__cta-line">Et puis…</p>
+          <p class="site-footer__cta-line site-footer__cta-line--emph">Embarques-tu&nbsp;?</p>
+        </div>
+      </div>
+      <p class="site-footer__fineprint">
+        <abbr title="Nota bene">N.B.</abbr> Pour des raisons de sécurité, les enfants de moins de
+        12&nbsp;ans doivent être accompagnés d’un adulte. Maximum 2&nbsp;enfants par adulte.
+      </p>
+    </footer>
+  </body>
+</html>
